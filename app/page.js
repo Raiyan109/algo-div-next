@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import bg from '../public/green-bh.jpg'
 import Hero from "./components/Hero";
 import Companies from "./components/Companies";
+import Support from "./components/Support";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Companies />
       </div>
+      <Support />
     </div>
   );
 }
