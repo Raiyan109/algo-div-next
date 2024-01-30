@@ -4,6 +4,7 @@ import bg from '../public/green-bh.jpg'
 import Hero from "./components/Hero";
 import Companies from "./components/Companies";
 import Support from "./components/Support";
+import Features from "./components/Features";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Companies />
       </div>
       <Support />
+      <Features />
     </div>
   );
 }
