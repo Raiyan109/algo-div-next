@@ -9,11 +9,11 @@ import Image from 'next/image';
 const Support = () => {
     return (
         <div className='bg-gradient-to-r from-blue-50 to-blue-50 flex justify-center items-center py-24'>
-            <div className='flex  justify-center gap-40'>
-                <div className='flex-1 space-y-6'>
-                    <h1 className='text-4xl font-semibold max-w-md'>How we support our pratner all over the world</h1>
-                    <p className='text-sm text-gray-400 max-w-lg leading-relaxed'>SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software</p>
-                    <div className='flex items-center gap-20'>
+            <div className='flex  justify-center gap-40 flex-col lg:flex-row items-center'>
+                <div className='flex-1 space-y-6 flex flex-col px-5'>
+                    <h1 className='text-4xl font-semibold max-w-md text-center lg:text-left'>How we support our pratner all over the world</h1>
+                    <p className='text-sm text-gray-400 max-w-lg leading-relaxed text-center lg:text-left'>SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software</p>
+                    <div className='flex items-center gap-20 justify-center lg:justify-start'>
                         <div className='space-y-2'>
                             <Image src={starFull} width={100} />
                             <h1 className='text-sm font-medium'>4.9/5 ratings</h1>

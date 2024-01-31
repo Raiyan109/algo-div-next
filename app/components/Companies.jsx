@@ -13,7 +13,7 @@ const Companies = () => {
             <div className='space-y-10'>
                 <h1 className="font-bold text-3xl text-center">More than 25,000 teams use Collabs</h1>
 
-                <div className='flex items-center gap-10'>
+                <div className='flex items-center flex-col lg:flex-row gap-10'>
                     <Image src={comp1} width={150} />
                     <Image src={comp2} width={150} />
                     <Image src={comp3} width={150} />

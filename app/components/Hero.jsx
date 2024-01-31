@@ -7,7 +7,7 @@ import { RxVideo } from "react-icons/rx";
 const Hero = () => {
     return (
         <div className='my-20'>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center flex-col-reverse gap-20 lg:flex-row'>
                 <div className='flex-1 flex flex-col justify-center items-center gap-12'>
                     <h1 className="text-6xl font-bold max-w-sm">
                         We’re here to Increase your Productivity
