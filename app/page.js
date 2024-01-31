@@ -7,6 +7,8 @@ import Support from "./components/Support";
 import Features from "./components/Features";
 import Benefit from "./components/Benefit";
 import Plan from "./components/Plan";
+import People from "./components/People";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,10 @@ export default function Home() {
       <div className="bg-gradient-to-r from-white to-green-200">
         <Benefit />
         <Plan />
+      </div>
+      <div className="bg-[#161C28]">
+        <People />
+        <Footer />
       </div>
     </div>
   );
