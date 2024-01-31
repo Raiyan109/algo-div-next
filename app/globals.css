@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 38px;
+    width: 130px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #54BD95;
+    color: white;
+    transition: 0.4s;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+input:checked+.slider::before {
+    transform: translateX(108px);
+}
+
+.card-container:nth-child(3) {
+    background-color: '#54BD95';
+}
