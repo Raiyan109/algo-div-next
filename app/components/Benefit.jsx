@@ -10,10 +10,10 @@ import Image from 'next/image';
 const Benefit = () => {
     return (
         <div className='flex justify-center items-center py-24'>
-            <div className='flex items-start gap-80'>
+            <div className='flex items-start gap-14 lg:gap-80 flex-col lg:flex-row'>
                 <div className='flex-1 space-y-14'>
-                    <h1 className='text-4xl font-bold max-w-xs'>What Benifit Will You Get</h1>
-                    <div className='flex flex-col gap-7'>
+                    <h1 className='text-4xl font-bold max-w-xs text-center lg:text-left'>What Benifit Will You Get</h1>
+                    <div className='flex flex-col gap-4 lg:gap-7'>
                         <div className='flex items-center gap-3'>
                             <Image src={tick} width={25} />
                             <h1 className='text-sm font-medium'>Free Consulting With Experet Saving Money</h1>

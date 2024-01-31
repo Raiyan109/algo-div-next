@@ -3,15 +3,15 @@ import search from '../../public/footer-search.png'
 
 const Footer = () => {
     return (
-        <div className='flex justify-center items-center py-24'>
-            <div className="flex justify-between gap-96">
-                <div className='flex flex-col gap-6 items-start'>
+        <div className='flex justify-center items-center py-2 lg:py-24'>
+            <div className="flex justify-between gap-32 lg:gap-96 flex-col lg:flex-row">
+                <div className='flex flex-col gap-6 items-center lg:items-start'>
                     <h1 className='text-green-500 text-3xl font-bold'>Biccas</h1>
                     <p className='text-xs text-gray-400'>Get started with project</p>
 
                     <Image src={search} width={300} />
                 </div>
-                <div className='flex gap-32'>
+                <div className='flex gap-32 '>
                     <div className='flex flex-col gap-6'>
                         <h1 className='text-xs text-gray-300'>Support</h1>
                         <h1 className='text-xs text-gray-400'>Help center</h1>

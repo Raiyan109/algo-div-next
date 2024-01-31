@@ -11,7 +11,7 @@ import Image from 'next/image'
 const People = () => {
     return (
         <div className='flex justify-center items-center py-24'>
-            <div className="flex gap-20">
+            <div className="flex gap-20 flex-col lg:flex-row items-center">
                 <div className='flex-1 flex flex-col justify-start items-start gap-8'>
                     <h1 className="text-4xl font-bold max-w-sm text-white leading-normal">
                         People are Saying About DoWhith
